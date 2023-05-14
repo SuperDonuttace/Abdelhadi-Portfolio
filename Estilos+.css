@@ -1,6 +1,10 @@
 
 
-.header { background-color: #2B2D42}
+.header { 
+    background-color: #322E18;
+    padding: 10px;
+    
+}
 
 .nav { color: white; 
     text-align: right; 
@@ -21,57 +25,62 @@
 
 
 
-.div-titulo {
-    font-size: 24px
-}
-
-
-.micara { 
-    height: 370px;
-    width: 400px
-}
-
-.imagen {
-    margin-left: 50%;
-    margin-top: 50px;
-    height: 370px;
-    width: 400px 
-}
-
 .section1 {
-    background-color: #bee6ec;
- }
+    background-image: url('photo-1567304441104-d7a7d3e4bc1b.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+    margin-top: 10px;
 
-.section-actividad{
-    background-color: #F8F7F9;
+}
+  
+.titulo {
+    font-size: 25px;
+    color: #F7EC59;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+  
+.imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.micara {
+    height: 350px;
+    width: 350px;
+}  
+
+
+
+
+
+.section-actividad {
+    background-color: beige;
+    margin-top: 10px;
 }
 
-.section2 { 
-    background-color: #F7EC59;
+.section2 {
+    background-color: beige;
 }
+  
 
 
-.aside1 { 
-    float: left; 
-
-    min-height: 80rem;
-    min-width: 4rem;
-    background-image: url(photo-1567304441104-d7a7d3e4bc1b.jpg);
-}
 
 
-.aside2 { 
-    float: right; 
 
-    min-height: 80rem;
-    min-width: 4rem;
-    background-image: url(photo-1567304441104-d7a7d3e4bc1b.jpg);
-}
+
+
 
 .h1{
     text-align: center;
     font-size: 45px;
 }
+
 
 .actividades-html { 
     font-size: 1rem;
@@ -110,8 +119,11 @@
 
 
 
+
+
+
 .footer { 
-    background-color: #FF66D8;
+    background-color: #847979;
     text-align: center;
     font-size: 2rem;
     word-spacing: 5rem;
@@ -123,8 +135,6 @@
 .body-contactos {
     background-color: beige;
 }
-
-
 
 
 
