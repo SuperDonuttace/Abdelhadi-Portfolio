@@ -27,10 +27,15 @@
 
 
 .micara { 
+    height: 370px;
+    width: 400px
+}
+
+.imagen {
     margin-left: 50%;
     margin-top: 50px;
-    height: 350px;
-    width: 400px
+    height: 370px;
+    width: 400px 
 }
 
 .section1 {
@@ -107,6 +112,9 @@
 
 .footer { 
     background-color: #FF66D8;
+    text-align: center;
+    font-size: 2rem;
+    word-spacing: 5rem;
 }
 
 
