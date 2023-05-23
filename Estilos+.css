@@ -1,33 +1,31 @@
+
+.header { 
+    background-color: #332f17;
+    padding: 10px;
+}
+
+.nav {
+    text-align: right;
+    font-size: 20px;
+    word-spacing: 20px;
+    color: white;
+}
+
+
+
+
+
 body {
     margin: 0;
     padding: 0;
 }
 
-.header { 
-    background-color: #322E18;
-    padding: 10px;
-}
-
-.nav {
-    color: white;
-    text-align: right;
-    font-size: 20px;
-    word-spacing: 20px;
-}
-
-.imgnav {
-    float: left;
-    height: 30px;
-    width: 30px;
-}
-
 .section1 {
-    background-image: url('photo-1567304441104-d7a7d3e4bc1b.jpg');
+    background-image: url('/Imagenes/photo-1567304441104-d7a7d3e4bc1b.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     padding: 50px;
-    margin-top: 10px;
 }
   
 .titulo {
@@ -45,27 +43,58 @@ body {
 }
   
 .micara {
-    height: 350px;
-    width: 350px;
+    height: 430px;
+    width: 330px;
+    border-radius: 100%;
 }  
 
-.section-actividad {
+.actividades-professor {
     background-color: beige;
-    margin-top: 10px;
 }
 
+
+
+
+
+.body-contactos {
+    background-color: beige;
+}
+
+.body-actividades {
+    background-color: beige;
+}
+
+.body-sobremi{
+    background-color: beige;
+}
+
+
+
+
 .main-actividades {
-    margin-bottom: 27%;
+    margin-bottom: 20.5%;
 }
 
 .main-contactos {
-    margin-bottom: 25%;
+    margin-bottom: 18.5%;
 }
 
-.h1 {
+.main-sobremi{
+    margin-bottom: 30%;
+}
+
+
+
+
+h1 {
     text-align: center;
     font-size: 45px;
 }
+
+
+
+
+
 
 .actividades-html {
     margin-left: 35%;
@@ -84,9 +113,14 @@ body {
     text-align: center;
     font-size: 24px;
 }
-.actividades-professor {
-    background-color: beige;
+
+
+
+.div-contactos{
+    text-align: center;
 }
+
+
 
 
 .footer {
@@ -94,35 +128,4 @@ body {
     text-align: center;
     font-size: 2rem;
     color: white;
-  }
-  
-  .footer .contacto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-  }
-  
-  .footer .contacto > * {
-    display: inline-block;
-  }
-  
-  .footer .redes-iconos {
-    display: inline-flex;
-    align-items: center;
-    gap: 1rem;
-  }
-  
-  .footer .redes-iconos img {
-    display: block;
-  }
-  
-  
-  
-.body-contactos {
-    background-color: beige;
-}
-
-.body-actividades {
-    background-color: beige;
 }
